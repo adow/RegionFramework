@@ -58,7 +58,7 @@ RegionFramework 是一组区域管理工具，在 `iOS` 中，我们可以监控
 
 ### WKRegionActivities
 
-* App 启动时会从本地读取一份区域数据列表(json),如果这份文件过期(超过一天),就会从服务器接口上更新这个列表(同时保存到本地)，这个列表包含了多个WKRegionActitity数据,App 启动后就得到了所有要监控区域的列表，这是一个用来测试的区域列表接口: [http://check.xiaobenapp.com/static/region.activities.json](http://check.xiaobenapp.com/static/region.activities.json)；
+* App 启动时会从本地读取一份区域数据列表(json),如果这份文件过期(超过一天),就会从服务器接口上更新这个列表(同时保存到本地)，这个列表包含了多个WKRegionActitity数据,App 启动后就得到了所有要监控区域的列表，这是一个用来测试的区域列表接口: [https://github.com/adow/RegionFramework/blob/master/RegionFramework/RegionFramework/region.test.json](https://github.com/adow/RegionFramework/blob/master/RegionFramework/RegionFramework/region.test.json)；
 * 根据这份区域列表,App更新需要监控的区域，如果是新的区域，将添加到新的监控中，如果这个区域过期，将从系统监控中移除；
 * 每个正在监控的区域中，进入和退出区域时，运行对应的 javascript 脚本；
 * 有一个全局的`on`属性，用来打开和关闭整个区域监控功能；在App的设置中，可以用来打开和关闭全部功能；
