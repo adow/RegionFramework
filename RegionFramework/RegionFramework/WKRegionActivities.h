@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "WKRegionActivity.h"
-#define WKRegionActivitiesUpdatePath @"http://check.xiaobenapp.com/static/region.activities.json"
+#define WKRegionActivitiesUpdatePath @"http://check.xiaobenapp.com/static/region.test.json"
 #define WKRegionActivitiesRefreshRegionsCompleted @"WKRegionActivitiesRefreshRegionsCompleted"
 @interface WKRegionActivities : NSObject{
 }

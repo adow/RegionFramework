@@ -64,7 +64,7 @@
         NSLog(@"%@",log);
     };
 }
-///写入activity的日志文件,wk_console_log(str,identifier)
+///写入activity的日志文件,wk_log_activity(str,identifier)
 -(void)load_log_activity{
     self.js[@"wk_log_activity"]=^(NSString* log, NSString* identifier){
         NSDate *date = [NSDate date];
@@ -77,6 +77,8 @@
             [[NSFileManager defaultManager] createDirectoryAtPath:dir withIntermediateDirectories:YES attributes:nil error:nil];
         }
         NSString *filename=[dir stringByAppendingPathComponent:[NSString stringWithFormat:@"%@.log",identifier]];
+        formatter.timeStyle = NSDateFormatterMediumStyle;
+        formatter.dateStyle = NSDateFormatterMediumStyle;
         NSString *time_str = [formatter stringFromDate:date];
         NSString *log_line = [NSString stringWithFormat:@"%@: %@ \n",time_str,log];
         if (![[NSFileManager defaultManager] fileExistsAtPath:filename]){

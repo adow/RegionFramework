@@ -8,7 +8,7 @@
 * wk_console_log(str): 在控制台输出日志,
 
 ## Activity
-* wk_console_log(str,identifier): 写入activity的日志文件
+* wk_log_activity(str,identifier): 写入activity的日志文件
 * wk_log_activity_read(identifier): 返回activity今天的日志文件
 
 ## dir
