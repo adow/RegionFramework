@@ -9,22 +9,20 @@
 /* Begin PBXBuildFile section */
 		68F97DC11A49117D00D2742E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 68F97DC01A49117D00D2742E /* main.m */; };
 		68F97DC41A49117D00D2742E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 68F97DC31A49117D00D2742E /* AppDelegate.m */; };
-		68F97DC71A49117D00D2742E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68F97DC61A49117D00D2742E /* ViewController.m */; };
 		68F97DCA1A49117D00D2742E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68F97DC81A49117D00D2742E /* Main.storyboard */; };
 		68F97DCC1A49117D00D2742E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68F97DCB1A49117D00D2742E /* Images.xcassets */; };
 		68F97DCF1A49117D00D2742E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68F97DCD1A49117D00D2742E /* LaunchScreen.xib */; };
-		68F97DDB1A49117E00D2742E /* RegionFrameworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 68F97DDA1A49117E00D2742E /* RegionFrameworkTests.m */; };
+		68F97DE51A49118C00D2742E /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68F97DE41A49118C00D2742E /* JavaScriptCore.framework */; };
+		68F97DE71A49119500D2742E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68F97DE61A49119500D2742E /* CoreLocation.framework */; };
+		68F97DE91A49119B00D2742E /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68F97DE81A49119B00D2742E /* CoreBluetooth.framework */; };
+		68F97DFA1A49123C00D2742E /* ActivityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68F97DEB1A49123C00D2742E /* ActivityViewController.m */; };
+		68F97DFB1A49123C00D2742E /* BeaconsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68F97DED1A49123C00D2742E /* BeaconsViewController.m */; };
+		68F97DFC1A49123C00D2742E /* WKJs.m in Sources */ = {isa = PBXBuildFile; fileRef = 68F97DF01A49123C00D2742E /* WKJs.m */; };
+		68F97DFE1A49123C00D2742E /* WKRegionActivities.m in Sources */ = {isa = PBXBuildFile; fileRef = 68F97DF31A49123C00D2742E /* WKRegionActivities.m */; };
+		68F97DFF1A49123C00D2742E /* WKRegionActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 68F97DF51A49123C00D2742E /* WKRegionActivity.m */; };
+		68F97E001A49123C00D2742E /* RegionsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 68F97DF71A49123C00D2742E /* RegionsTableViewCell.m */; };
+		68F97E011A49123C00D2742E /* RegionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68F97DF91A49123C00D2742E /* RegionsViewController.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		68F97DD51A49117D00D2742E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 68F97DB31A49117D00D2742E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 68F97DBA1A49117D00D2742E;
-			remoteInfo = RegionFramework;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		68F97DBB1A49117D00D2742E /* RegionFramework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RegionFramework.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -32,14 +30,29 @@
 		68F97DC01A49117D00D2742E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		68F97DC21A49117D00D2742E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		68F97DC31A49117D00D2742E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		68F97DC51A49117D00D2742E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		68F97DC61A49117D00D2742E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		68F97DC91A49117D00D2742E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		68F97DCB1A49117D00D2742E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		68F97DCE1A49117D00D2742E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		68F97DD41A49117D00D2742E /* RegionFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RegionFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		68F97DD91A49117E00D2742E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		68F97DDA1A49117E00D2742E /* RegionFrameworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegionFrameworkTests.m; sourceTree = "<group>"; };
+		68F97DE41A49118C00D2742E /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		68F97DE61A49119500D2742E /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		68F97DE81A49119B00D2742E /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		68F97DEA1A49123C00D2742E /* ActivityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityViewController.h; sourceTree = "<group>"; };
+		68F97DEB1A49123C00D2742E /* ActivityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityViewController.m; sourceTree = "<group>"; };
+		68F97DEC1A49123C00D2742E /* BeaconsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeaconsViewController.h; sourceTree = "<group>"; };
+		68F97DED1A49123C00D2742E /* BeaconsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeaconsViewController.m; sourceTree = "<group>"; };
+		68F97DEF1A49123C00D2742E /* WKJs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKJs.h; sourceTree = "<group>"; };
+		68F97DF01A49123C00D2742E /* WKJs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKJs.m; sourceTree = "<group>"; };
+		68F97DF11A49123C00D2742E /* WKJs.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = WKJs.md; sourceTree = "<group>"; };
+		68F97DF21A49123C00D2742E /* WKRegionActivities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKRegionActivities.h; sourceTree = "<group>"; };
+		68F97DF31A49123C00D2742E /* WKRegionActivities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKRegionActivities.m; sourceTree = "<group>"; };
+		68F97DF41A49123C00D2742E /* WKRegionActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKRegionActivity.h; sourceTree = "<group>"; };
+		68F97DF51A49123C00D2742E /* WKRegionActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKRegionActivity.m; sourceTree = "<group>"; };
+		68F97DF61A49123C00D2742E /* RegionsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegionsTableViewCell.h; sourceTree = "<group>"; };
+		68F97DF71A49123C00D2742E /* RegionsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegionsTableViewCell.m; sourceTree = "<group>"; };
+		68F97DF81A49123C00D2742E /* RegionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegionsViewController.h; sourceTree = "<group>"; };
+		68F97DF91A49123C00D2742E /* RegionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegionsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,13 +60,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		68F97DD11A49117D00D2742E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				68F97DE91A49119B00D2742E /* CoreBluetooth.framework in Frameworks */,
+				68F97DE71A49119500D2742E /* CoreLocation.framework in Frameworks */,
+				68F97DE51A49118C00D2742E /* JavaScriptCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +72,9 @@
 		68F97DB21A49117D00D2742E = {
 			isa = PBXGroup;
 			children = (
+				68F97DE81A49119B00D2742E /* CoreBluetooth.framework */,
+				68F97DE61A49119500D2742E /* CoreLocation.framework */,
+				68F97DE41A49118C00D2742E /* JavaScriptCore.framework */,
 				68F97DBD1A49117D00D2742E /* RegionFramework */,
 				68F97DD71A49117D00D2742E /* RegionFrameworkTests */,
 				68F97DBC1A49117D00D2742E /* Products */,
@@ -73,7 +85,6 @@
 			isa = PBXGroup;
 			children = (
 				68F97DBB1A49117D00D2742E /* RegionFramework.app */,
-				68F97DD41A49117D00D2742E /* RegionFrameworkTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -81,10 +92,17 @@
 		68F97DBD1A49117D00D2742E /* RegionFramework */ = {
 			isa = PBXGroup;
 			children = (
+				68F97DEE1A49123C00D2742E /* RegionFramework */,
+				68F97DEA1A49123C00D2742E /* ActivityViewController.h */,
+				68F97DEB1A49123C00D2742E /* ActivityViewController.m */,
+				68F97DEC1A49123C00D2742E /* BeaconsViewController.h */,
+				68F97DED1A49123C00D2742E /* BeaconsViewController.m */,
+				68F97DF61A49123C00D2742E /* RegionsTableViewCell.h */,
+				68F97DF71A49123C00D2742E /* RegionsTableViewCell.m */,
+				68F97DF81A49123C00D2742E /* RegionsViewController.h */,
+				68F97DF91A49123C00D2742E /* RegionsViewController.m */,
 				68F97DC21A49117D00D2742E /* AppDelegate.h */,
 				68F97DC31A49117D00D2742E /* AppDelegate.m */,
-				68F97DC51A49117D00D2742E /* ViewController.h */,
-				68F97DC61A49117D00D2742E /* ViewController.m */,
 				68F97DC81A49117D00D2742E /* Main.storyboard */,
 				68F97DCB1A49117D00D2742E /* Images.xcassets */,
 				68F97DCD1A49117D00D2742E /* LaunchScreen.xib */,
@@ -119,6 +137,20 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		68F97DEE1A49123C00D2742E /* RegionFramework */ = {
+			isa = PBXGroup;
+			children = (
+				68F97DEF1A49123C00D2742E /* WKJs.h */,
+				68F97DF01A49123C00D2742E /* WKJs.m */,
+				68F97DF11A49123C00D2742E /* WKJs.md */,
+				68F97DF21A49123C00D2742E /* WKRegionActivities.h */,
+				68F97DF31A49123C00D2742E /* WKRegionActivities.m */,
+				68F97DF41A49123C00D2742E /* WKRegionActivity.h */,
+				68F97DF51A49123C00D2742E /* WKRegionActivity.m */,
+			);
+			path = RegionFramework;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,24 +171,6 @@
 			productReference = 68F97DBB1A49117D00D2742E /* RegionFramework.app */;
 			productType = "com.apple.product-type.application";
 		};
-		68F97DD31A49117D00D2742E /* RegionFrameworkTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 68F97DE11A49117E00D2742E /* Build configuration list for PBXNativeTarget "RegionFrameworkTests" */;
-			buildPhases = (
-				68F97DD01A49117D00D2742E /* Sources */,
-				68F97DD11A49117D00D2742E /* Frameworks */,
-				68F97DD21A49117D00D2742E /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				68F97DD61A49117D00D2742E /* PBXTargetDependency */,
-			);
-			name = RegionFrameworkTests;
-			productName = RegionFrameworkTests;
-			productReference = 68F97DD41A49117D00D2742E /* RegionFrameworkTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -168,10 +182,6 @@
 				TargetAttributes = {
 					68F97DBA1A49117D00D2742E = {
 						CreatedOnToolsVersion = 6.1.1;
-					};
-					68F97DD31A49117D00D2742E = {
-						CreatedOnToolsVersion = 6.1.1;
-						TestTargetID = 68F97DBA1A49117D00D2742E;
 					};
 				};
 			};
@@ -189,7 +199,6 @@
 			projectRoot = "";
 			targets = (
 				68F97DBA1A49117D00D2742E /* RegionFramework */,
-				68F97DD31A49117D00D2742E /* RegionFrameworkTests */,
 			);
 		};
 /* End PBXProject section */
@@ -205,13 +214,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		68F97DD21A49117D00D2742E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -219,29 +221,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				68F97DC71A49117D00D2742E /* ViewController.m in Sources */,
+				68F97DFF1A49123C00D2742E /* WKRegionActivity.m in Sources */,
+				68F97DFE1A49123C00D2742E /* WKRegionActivities.m in Sources */,
+				68F97DFB1A49123C00D2742E /* BeaconsViewController.m in Sources */,
+				68F97E001A49123C00D2742E /* RegionsTableViewCell.m in Sources */,
 				68F97DC41A49117D00D2742E /* AppDelegate.m in Sources */,
 				68F97DC11A49117D00D2742E /* main.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		68F97DD01A49117D00D2742E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				68F97DDB1A49117E00D2742E /* RegionFrameworkTests.m in Sources */,
+				68F97E011A49123C00D2742E /* RegionsViewController.m in Sources */,
+				68F97DFC1A49123C00D2742E /* WKJs.m in Sources */,
+				68F97DFA1A49123C00D2742E /* ActivityViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		68F97DD61A49117D00D2742E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 68F97DBA1A49117D00D2742E /* RegionFramework */;
-			targetProxy = 68F97DD51A49117D00D2742E /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		68F97DC81A49117D00D2742E /* Main.storyboard */ = {
@@ -359,40 +351,6 @@
 			};
 			name = Release;
 		};
-		68F97DE21A49117E00D2742E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = RegionFrameworkTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RegionFramework.app/RegionFramework";
-			};
-			name = Debug;
-		};
-		68F97DE31A49117E00D2742E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = RegionFrameworkTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RegionFramework.app/RegionFramework";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -410,14 +368,6 @@
 			buildConfigurations = (
 				68F97DDF1A49117E00D2742E /* Debug */,
 				68F97DE01A49117E00D2742E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		68F97DE11A49117E00D2742E /* Build configuration list for PBXNativeTarget "RegionFrameworkTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				68F97DE21A49117E00D2742E /* Debug */,
-				68F97DE31A49117E00D2742E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
