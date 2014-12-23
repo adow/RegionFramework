@@ -20,6 +20,8 @@ RegionFramework 是一组区域管理工具，在 `iOS` 中，我们可以监控
 * 包含 `WKRegionActivity.h`,`WKRegionActivity.m`,`WKRegionActivities.h`,`WKRegionActivities.m`,`WKJs.h`,`WKJs.m`;
 * 确保使用ARC,如果项目是手工管理内存的，在 `Build Phases`，`Compiler Sources` 中的这几个文件添加 `-fobjc-arc`;
 * 在 `Link Binary With Libraries` 中引入 `CoreLocation.framework`,`CoreBluetooth.framework`,`JavaScriptCore.framework`;
+* 修改 `WKRegionActivities.h` 中`WKRegionActivitiesUpdatePath` 到新的外部json 文件地址;
+* 可以在 `WKJs` 中添加更多的 `JS-Binding`的 `Objectivie-C` 代码;
 * 由于一般都会用到推送，所以在 AppDelegate 中启动时注册通知
 
 		if ([[UIApplication sharedApplication] respondsToSelector:@selector(registerUserNotificationSettings:)]){
@@ -68,3 +70,4 @@ RegionFramework 是一组区域管理工具，在 `iOS` 中，我们可以监控
 
 * 每个监控区域(WKRegionActivity)都包含 `enter_scripts`和 `exit_scripts` 脚本，当进入和退出时运行对应的脚本;
 * 所有的脚本都是 `javascript`, WKJs 提供了一系列js函数，用来进行文件操作,http访问，用户数据存储，发送本地通知等功能 [https://github.com/adow/RegionFramework/blob/master/RegionFramework/RegionFramework/WKJs.md](https://github.com/adow/RegionFramework/blob/master/RegionFramework/RegionFramework/WKJs.md)；
+* 可以在 `WKJs` 中添加更多扩展方法，每个方法必须在 `-(void)loadJs` 中被调用添加到 `JSContext` 中去;
