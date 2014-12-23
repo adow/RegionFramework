@@ -22,6 +22,9 @@
         [[UIApplication sharedApplication] registerUserNotificationSettings:setting];
         [[UIApplication sharedApplication] registerForRemoteNotifications];
     }
+    else{
+        [[UIApplication sharedApplication] registerForRemoteNotificationTypes:UIRemoteNotificationTypeAlert | UIRemoteNotificationTypeBadge | UIRemoteNotificationTypeSound];
+    }
     return YES;
 }
 

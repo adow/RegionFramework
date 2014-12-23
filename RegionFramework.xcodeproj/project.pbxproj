@@ -22,6 +22,7 @@
 		68F97DFF1A49123C00D2742E /* WKRegionActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 68F97DF51A49123C00D2742E /* WKRegionActivity.m */; };
 		68F97E001A49123C00D2742E /* RegionsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 68F97DF71A49123C00D2742E /* RegionsTableViewCell.m */; };
 		68F97E011A49123C00D2742E /* RegionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68F97DF91A49123C00D2742E /* RegionsViewController.m */; };
+		68F97E041A495C5100D2742E /* region.test.json in Resources */ = {isa = PBXBuildFile; fileRef = 68F97E031A495C5100D2742E /* region.test.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +54,7 @@
 		68F97DF71A49123C00D2742E /* RegionsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegionsTableViewCell.m; sourceTree = "<group>"; };
 		68F97DF81A49123C00D2742E /* RegionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegionsViewController.h; sourceTree = "<group>"; };
 		68F97DF91A49123C00D2742E /* RegionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegionsViewController.m; sourceTree = "<group>"; };
+		68F97E031A495C5100D2742E /* region.test.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = region.test.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +142,7 @@
 		68F97DEE1A49123C00D2742E /* RegionFramework */ = {
 			isa = PBXGroup;
 			children = (
+				68F97E031A495C5100D2742E /* region.test.json */,
 				68F97DEF1A49123C00D2742E /* WKJs.h */,
 				68F97DF01A49123C00D2742E /* WKJs.m */,
 				68F97DF11A49123C00D2742E /* WKJs.md */,
@@ -210,6 +213,7 @@
 			files = (
 				68F97DCA1A49117D00D2742E /* Main.storyboard in Resources */,
 				68F97DCF1A49117D00D2742E /* LaunchScreen.xib in Resources */,
+				68F97E041A495C5100D2742E /* region.test.json in Resources */,
 				68F97DCC1A49117D00D2742E /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

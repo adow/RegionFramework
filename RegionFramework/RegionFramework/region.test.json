@@ -1,0 +1,54 @@
+[
+  {
+    "center_radius" : 0,
+    "major" : "0",
+    "expire_at" : 1419665577.421437,
+    "center_lng" : 0,
+    "center_lat" : 0,
+    "enter_scripts" : "wk_send_notification('Enter '+ wk_activity_region_name,'default',1,null);wk_log_activity('In',wk_activity_identifier);",
+    "identifier" : "test.beacon.office",
+    "uuid" : "96EFF254-BDB5-4AAA-9CCA-3552C236DC29",
+    "exit_scripts" : "wk_send_notification('Exit '+ wk_activity_region_name,'default',1,null);wk_log_activity('Out',wk_activity_identifier);",
+    "region_name" : "Office Beacon April Brother",
+    "minor" : "5"
+  },
+  {
+    "center_radius" : 0,
+    "major" : "1",
+    "expire_at" : 1419665577.421437,
+    "center_lng" : 0,
+    "center_lat" : 0,
+    "enter_scripts" : "wk_send_notification('Enter '+ wk_activity_region_name,'default',1,null);wk_log_activity('In',wk_activity_identifier);",
+    "identifier" : "test.estimote.office",
+    "uuid" : "96EFF254-BDB5-4AAA-9CCA-3552C236DC29",
+    "exit_scripts" : "wk_send_notification('Exit '+ wk_activity_region_name,'default',1,null);wk_log_activity('Out',wk_activity_identifier);",
+    "region_name" : "Office Beacon Estimote",
+    "minor" : "1"
+  },
+  {
+    "center_radius" : 0,
+    "major" : "2",
+    "expire_at" : 1419665577.421437,
+    "center_lng" : 0,
+    "center_lat" : 0,
+    "enter_scripts" : "wk_send_notification('Enter '+ wk_activity_region_name,'default',1,null);wk_log_activity('In',wk_activity_identifier);",
+    "identifier" : "test.sensoro.office",
+    "uuid" : "96EFF254-BDB5-4AAA-9CCA-3552C236DC29",
+    "exit_scripts" : "wk_send_notification('Exit '+ wk_activity_region_name,'default',1,null);wk_log_activity('Out',wk_activity_identifier);",
+    "region_name" : "Office Beacon Sensoro",
+    "minor" : "1"
+  },
+  {
+    "center_radius" : 500,
+    "major" : "",
+    "expire_at" : 1419665577.421437,
+    "center_lng" : 120.277440363643,
+    "center_lat" : 31.5611234140784,
+    "enter_scripts" : "wk_send_notification('Enter '+ wk_activity_region_name,'default',1,null);wk_log_activity('In',wk_activity_identifier);",
+    "identifier" : "test.circular.building",
+    "uuid" : "",
+    "exit_scripts" : "wk_send_notification('Exit '+ wk_activity_region_name,'default',1,null);wk_log_activity('Out',wk_activity_identifier);",
+    "region_name" : "无锡广电传媒中心",
+    "minor" : ""
+  }
+]
